@@ -1,6 +1,9 @@
 # Astra Vision
+### Interactive Code Sandbox & AST Visualizer
 
-**Astra Vision** is an experimental, browser-based code exploration and learning workspace. It combines a GitHub repository browser, a read-only code editor, rule-based JavaScript analysis, interactive line insights, and Mermaid flow diagrams.
+> **System Architects:** Co-created, built, and maintained by **Roushan Kumar** ([@Hey-Astreon](https://github.com/Hey-Astreon)) & **Ayushi Raj** ([@Ayushi507](https://github.com/Ayushi507)).
+
+**Astra Vision** is an interactive, browser-based code exploration and learning workspace. It combines an in-browser code analysis studio pairing Monaco Editor with an interactive dependency-graph canvas, live AST inspection streaming syntax nodes via FastAPI and Tree-Sitter endpoints in under 200ms, and natural-language semantic code search backed by ChromaDB vector embeddings.
 
 > **Project status:** Prototype. The checked-in frontend analysis engine is heuristic and JavaScript-focused. The accompanying FastAPI service currently exposes development endpoints with sample responses; it is not yet a production AI-analysis backend or a secure code-execution sandbox.
 
@@ -58,8 +61,8 @@ Install:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Silenttears-cloud/Astra_vision.git
-cd Astra_vision
+git clone https://github.com/Hey-Astreon/Astra-Vision.git
+cd Astra-Vision
 ```
 
 ### 2. Start the frontend
@@ -203,4 +206,18 @@ Astra_vision/
 
 ---
 
-Astra Vision is an evolving prototype. Feature descriptions in this README are intentionally limited to behavior visible in the current public source tree.
+## 👩‍💻 System Architects & Maintainers
+
+<div align="center">
+
+| **Roushan Kumar** | **Ayushi Raj** |
+| :---: | :---: |
+| [@Hey-Astreon](https://github.com/Hey-Astreon) | [@Ayushi507](https://github.com/Ayushi507) |
+| **Co-Creator & Systems Architect** | **Co-Creator & Full-Stack Developer** |
+| AST Engine, Tree-Sitter & Backend Services | Monaco Studio, Dependency Graph & Frontend UI |
+
+</div>
+
+---
+
+Astra Vision is an evolving prototype built and maintained by Roushan Kumar & Ayushi Raj.
